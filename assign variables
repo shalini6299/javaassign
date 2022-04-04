@@ -1,0 +1,7 @@
+class {
+public static void main(string[]args){
+int a=55;
+int b=70;
+system.out.println(a<50 && a<b);
+}
+}
