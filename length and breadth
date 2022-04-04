@@ -1,4 +1,3 @@
-// Java program to find the perimeter of a rectangle
 import java.util.Scanner;
 
 public class Main {
