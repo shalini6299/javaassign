@@ -1,0 +1,33 @@
+Q. Write the differnce between soap and restful web servvice?
+SOAP (Simple Object Access Protocol), a W3C recommendation for communication between two applications
+SOAP is an XML-based protocol for accessing web services over HTTP
+Any Web Service that complies and follows some guidelines which are led down by SOAP Web Services specifications is a SOAP Web Service.
+
+
+
+
+REST (REpresentational State Transfer)
+REST is an architectural style
+REST is not a protocol,
+there are no strict specifications,
+no central body like W3C to control specifications
+REST is a design principle, one can use design principles/methods to create a service, which creates RESTful Web Services
+
+
+There are many differences between SOAP and REST web services, some important differences are given below:
+
+SOAP Web Services/API	                                                                REST Web Services/API
+                                                                   
+SOAP stands for Simple Object Access Protocol	                                        REST stands for REpresentational State Transfer
+SOAP is a protocol	                                                                REST is an architectural style
+SOAP can't use REST because it is a protocol but REST is an architectural pattern	   REST can use SOAP web services as it is an architectural pattern/concept and can use any protocol like HTTP, SOAP
+SOAP uses service interfaces to expose the business logic	                           REST uses URI (URL path) to expose business logic
+SOAP requires more bandwidth and resource than REST	                                  REST requires less bandwidth and resource than SOAP
+SOAP is slow as compared to REST	                                                    REST is fast as compared to SOAP
+SOAP permits XML data format only	                                                    REST permits different data format such as Plain text, HTML, JSON, XML etc.
+SOAP is less preferred than REST	                                                    REST IS more preferred than SOAP
+
+
+
+Q. What are http methods?
+HTTP methods are POST, GET, PUT, PATCH, and DELETE. These methods correspond to create, read, update, and delete (or CRUD) operations, respectively. There are a number of other methods, too, but they are utilized less frequently.
